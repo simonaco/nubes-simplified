@@ -3,7 +3,7 @@ const app = express();
 const port = 8080;
 
 app.get("/", (req, res) => {
-  res.send("Azure can do that?!");
+  res.send("Azure can do that?!Sure it can!");
 });
 
 app.listen(port, () => {
